@@ -14,10 +14,11 @@ namespace unNROLZ
                 {
                     decompress(args[1]);
                 }
-                else if (args[1].Equals("compress"))
+                else if (args[0].Equals("compress"))
                 {
                     compress(args[1]);
                 }
+                return;
             }
 
             Console.WriteLine("unNROLZ compress|decompress filePath");
